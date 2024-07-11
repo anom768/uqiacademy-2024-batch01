@@ -6,3 +6,8 @@ img[usemap]{
 .hidden {
   display: none;
 }
+#personal-picture {
+  width: 100%;
+  height: 180px; /* Atur tinggi sesuai keinginan */
+  object-fit: cover; /* Menjaga proporsi gambar */
+}

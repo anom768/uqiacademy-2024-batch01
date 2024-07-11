@@ -42,10 +42,10 @@ const infoMap = {
         },
     },
     g: {
-        name: "Stevi", phone: "", school: "SMK N 1 Kawunganten", image: "src/foto/Stevi.jpg",
+        name: "Stevi", phone: "0895357435932", school: "SMK N 1 Kawunganten", image: "src/foto/Stevi.jpg",
         device_specification: {
-            device: "PC", processor: "AMD Ryzen 3 PRO 4350G with Radeon Graphics (8CPUs), ~3.8GHz",
-            ram: 32768, vga: "NVIDIA GeForce GT 220"
+            device: "PC", processor: "AMD Ryzen 3 4100 4-Core Processor",
+            ram: 49152, vga: "NVIDIA GeForce GTX 1660 SUPER"
         },
     },
     h: {
@@ -79,43 +79,43 @@ const infoMap = {
     l: {
         name: "Purwati", phone: "085725805329", school: "SMK N 1 Kawunganten", image: "src/foto/Purwati.jpg",
         device_specification: {
-            device: "", processor: "",
-            ram: 0, vga: ""
+            device: "Laptop", processor: "Intel(R) Core(TM) i5-4210H CPU @ 2.90GHz (4 CPUs), ~2.9GHz",
+            ram: 16384, vga: ""
         },
     },
     m: {
         name: "Bintang", phone: "081567670616", school: "SMK N 1 Kawunganten", image: "src/foto/Bintang.jpg",
         device_specification: {
-            device: "", processor: "",
-            ram: 0, vga: ""
+            device: "Laptop", processor: "AMD Ryzen 5 5500U with Radeon Graphics",
+            ram: 8192, vga: ""
         },
     },
     n: {
         name: "Dheni", phone: "085641190307", school: "SMK N 1 Kawunganten", image: "src/foto/Dheni.jpg",
         device_specification: {
-            device: "", processor: "",
-            ram: 0, vga: ""
+            device: "Laptop", processor: "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz (8CPUs)",
+            ram: 16384, vga: ""
         },
     },
     o: {
         name: "Sidik", phone: "0882005720963", school: "SMK N 1 Kawunganten", image: "src/foto/Sidik.jpg",
         device_specification: {
-            device: "", processor: "",
-            ram: 0, vga: ""
+            device: "Laptop", processor: "Intel(R) Core(TM) i5-7200 CPU @ 2.50GHz (4 CPUs), ~2.7GHz",
+            ram: 8192, vga: ""
         },
     },
     p: {
         name: "Haykal", phone: "089603633930", school: "SMK N 1 Kebumen", image: "src/foto/Haykal.jpg",
         device_specification: {
-            device: "", processor: "",
-            ram: 0, vga: ""
+            device: "Laptop", processor: "12th Gen Intel(R) Core(TM) i5-12450HX (12 CPUs), ~2.4GHz",
+            ram: 12288, vga: "NVIDIA GeForce RTX 3050 6GB Laptop GPU"
         },
     },
     q: {
         name: "Ghani", phone: "087794710749", school: "SMK N 1 Kebumen", image: "src/foto/Ghani.jpg",
         device_specification: {
-            device: "", processor: "",
-            ram: 0, vga: ""
+            device: "Laptop", processor: "AMD Ryzen 3 3250U with Radeon Graphics",
+            ram: 8192, vga: ""
         },
     },
     
