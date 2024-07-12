@@ -31,7 +31,7 @@ const infoMap = {
         name: "Siska", phone: "081228354023", school: "SMK N 1 Kawunganten", image: "src/foto/Siska.jpg",
         device_specification: {
             device: "PC", processor: "AMD Ryzen 5 4600G with Radeon Graphics (12CPUs), ~3.7GHz",
-            ram: 32768, vga: "AMD Radeon Graphics Processor (0x1636)"
+            ram: 65536, vga: "NVIDIA GeForce RTX 3060"
         },
     },
     f: {
@@ -66,7 +66,7 @@ const infoMap = {
         name: "Sekar", phone: "082257975181", school: "SMK N 1 Kawunganten", image: "src/foto/Sekar.jpg",
         device_specification: {
             device: "PC", processor: "AMD Ryzen 5 4600G with Radeon Graphics (12CPUs), ~3.7GHz",
-            ram: 65536, vga: "NVIDIA GeForce RTX 3060"
+            ram: 32768, vga: "AMD Radeon Graphics Processor (0x1636)"
         },
     },
     // k: {
