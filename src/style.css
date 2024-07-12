@@ -8,6 +8,6 @@ img[usemap]{
 }
 #personal-picture {
   width: 100%;
-  height: 180px; /* Atur tinggi sesuai keinginan */
+  height: auto; /* Atur tinggi sesuai keinginan */
   object-fit: cover; /* Menjaga proporsi gambar */
 }

@@ -28,7 +28,7 @@ const infoMap = {
         },
     },
     e: {
-        name: "Siska", phone: "081228354023", school: "SMK N 1 Kawunganten", image: "src/foto/Siska.webp",
+        name: "Siska", phone: "081228354023", school: "SMK N 1 Kawunganten", image: "src/foto/Siska.jpg",
         device_specification: {
             device: "PC", processor: "AMD Ryzen 5 4600G with Radeon Graphics (12CPUs), ~3.7GHz",
             ram: 32768, vga: "AMD Radeon Graphics Processor (0x1636)"
@@ -69,13 +69,13 @@ const infoMap = {
             ram: 65536, vga: "NVIDIA GeForce RTX 3060"
         },
     },
-    k: {
-        name: "Gading", phone: "", school: "", image: "src/foto/Gading.jpg",
-        device_specification: {
-            device: "", processor: "",
-            ram: 0, vga: ""
-        },
-    },
+    // k: {
+    //     name: "Gading", phone: "085741188957", school: "Universitas Telkom", image: "src/foto/Gading.jpg",
+    //     device_specification: {
+    //         device: "Laptop", processor: "AMD Ryzen 7 4800H with Radeon Graphics (16 CPUs), ~2.9GHz",
+    //         ram: 16384, vga: "NVIDIA Geforce GTX 1650 Ti"
+    //     },
+    // },
     l: {
         name: "Purwati", phone: "085725805329", school: "SMK N 1 Kawunganten", image: "src/foto/Purwati.jpg",
         device_specification: {
@@ -116,6 +116,13 @@ const infoMap = {
         device_specification: {
             device: "Laptop", processor: "AMD Ryzen 3 3250U with Radeon Graphics",
             ram: 8192, vga: ""
+        },
+    },
+    u: {
+        name: "Gading", phone: "085741188957", school: "Universitas Telkom", image: "src/foto/Gading.jpg",
+        device_specification: {
+            device: "Laptop", processor: "AMD Ryzen 7 4800H with Radeon Graphics (16 CPUs), ~2.9GHz",
+            ram: 16384, vga: "NVIDIA Geforce GTX 1650 Ti"
         },
     },
     
