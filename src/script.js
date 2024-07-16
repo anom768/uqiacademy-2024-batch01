@@ -2,8 +2,8 @@ const infoMap = {
     a: {
         name: "Rohayah", phone: "0882003097698", school: "SMK N 1 Kawunganten", image: "src/foto/Rohayah.jpg",
         device_specification: {
-            device: "PC", processor: "Intel(R) Core(TM) i5-7400 CPU @3.00GHz (4CPUs), ~3.0GHz",
-            ram: 8192, vga: "NVIDIA GeForce GT 1030"
+            device: "Laptop", processor: "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz (8CPUs)",
+            ram: 16384, vga: ""
         },
     },
     b: {
@@ -69,34 +69,34 @@ const infoMap = {
             ram: 32768, vga: "AMD Radeon Graphics Processor (0x1636)"
         },
     },
-    // k: {
-    //     name: "Gading", phone: "085741188957", school: "Universitas Telkom", image: "src/foto/Gading.jpg",
-    //     device_specification: {
-    //         device: "Laptop", processor: "AMD Ryzen 7 4800H with Radeon Graphics (16 CPUs), ~2.9GHz",
-    //         ram: 16384, vga: "NVIDIA Geforce GTX 1650 Ti"
-    //     },
-    // },
+    k: {
+        name: "Dheni", phone: "085641190307", school: "SMK N 1 Kawunganten", image: "src/foto/Dheni.jpg",
+        device_specification: {
+            device: "PC", processor: "Intel(R) Core(TM) i5-7400 CPU @3.00GHz (4CPUs), ~3.0GHz",
+            ram: 8192, vga: "NVIDIA GeForce GT 1030"
+        },
+    },
     l: {
+        name: "Ghani", phone: "087794710749", school: "SMK N 1 Kebumen", image: "src/foto/Ghani.jpg",
+        device_specification: {
+            device: "Laptop", processor: "AMD Ryzen 3 3250U with Radeon Graphics",
+            ram: 8192, vga: ""
+        },
+    },
+    m: {
         name: "Purwati", phone: "085725805329", school: "SMK N 1 Kawunganten", image: "src/foto/Purwati.jpg",
         device_specification: {
             device: "Laptop", processor: "Intel(R) Core(TM) i5-4210H CPU @ 2.90GHz (4 CPUs), ~2.9GHz",
             ram: 16384, vga: ""
         },
     },
-    m: {
-        name: "Bintang", phone: "081567670616", school: "SMK N 1 Kawunganten", image: "src/foto/Bintang.jpg",
-        device_specification: {
-            device: "Laptop", processor: "AMD Ryzen 5 5500U with Radeon Graphics",
-            ram: 8192, vga: ""
-        },
-    },
-    n: {
-        name: "Dheni", phone: "085641190307", school: "SMK N 1 Kawunganten", image: "src/foto/Dheni.jpg",
-        device_specification: {
-            device: "Laptop", processor: "Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz (8CPUs)",
-            ram: 16384, vga: ""
-        },
-    },
+    // n: {
+    //     name: "Dheni", phone: "085641190307", school: "SMK N 1 Kawunganten", image: "src/foto/Dheni.jpg",
+    //     device_specification: {
+    //         device: "PC", processor: "Intel(R) Core(TM) i5-7400 CPU @3.00GHz (4CPUs), ~3.0GHz",
+    //         ram: 8192, vga: "NVIDIA GeForce GT 1030"
+    //     },
+    // },
     o: {
         name: "Sidik", phone: "0882005720963", school: "SMK N 1 Kawunganten", image: "src/foto/Sidik.jpg",
         device_specification: {
@@ -104,17 +104,17 @@ const infoMap = {
             ram: 8192, vga: ""
         },
     },
-    p: {
-        name: "Haykal", phone: "089603633930", school: "SMK N 1 Kebumen", image: "src/foto/Haykal.jpg",
-        device_specification: {
-            device: "Laptop", processor: "12th Gen Intel(R) Core(TM) i5-12450HX (12 CPUs), ~2.4GHz",
-            ram: 12288, vga: "NVIDIA GeForce RTX 3050 6GB Laptop GPU"
-        },
-    },
+    // p: {
+    //     name: "Haykal", phone: "089603633930", school: "SMK N 1 Kebumen", image: "src/foto/Haykal.jpg",
+    //     device_specification: {
+    //         device: "Laptop", processor: "12th Gen Intel(R) Core(TM) i5-12450HX (12 CPUs), ~2.4GHz",
+    //         ram: 12288, vga: "NVIDIA GeForce RTX 3050 6GB Laptop GPU"
+    //     },
+    // },
     q: {
-        name: "Ghani", phone: "087794710749", school: "SMK N 1 Kebumen", image: "src/foto/Ghani.jpg",
+        name: "Bintang", phone: "081567670616", school: "SMK N 1 Kawunganten", image: "src/foto/Bintang.jpg",
         device_specification: {
-            device: "Laptop", processor: "AMD Ryzen 3 3250U with Radeon Graphics",
+            device: "Laptop", processor: "AMD Ryzen 5 5500U with Radeon Graphics",
             ram: 8192, vga: ""
         },
     },
@@ -123,6 +123,13 @@ const infoMap = {
         device_specification: {
             device: "Laptop", processor: "AMD Ryzen 7 4800H with Radeon Graphics (16 CPUs), ~2.9GHz",
             ram: 16384, vga: "NVIDIA Geforce GTX 1650 Ti"
+        },
+    },
+    v: {
+        name: "Haykal", phone: "089603633930", school: "SMK N 1 Kebumen", image: "src/foto/Haykal.jpg",
+        device_specification: {
+            device: "Laptop", processor: "12th Gen Intel(R) Core(TM) i5-12450HX (12 CPUs), ~2.4GHz",
+            ram: 12288, vga: "NVIDIA GeForce RTX 3050 6GB Laptop GPU"
         },
     },
     
