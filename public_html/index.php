@@ -19,6 +19,6 @@ Router::add('GET', '/romano', MainController::class, 'romano', []);
 Router::add('GET', '/rotoscoping', MainController::class, 'rotoscoping', []);
 Router::add('GET', '/train', MainController::class, 'train', []);
 Router::add('GET', '/bike', MainController::class, 'bike', []);
-Router::add('GET', '/academy', AcademyController::class, 'academy', []);
+Router::add('GET', '/academy', MainController::class, 'academy', []);
 
 Router::run();

@@ -58,4 +58,8 @@ class MainController {
         View::render('detail/train', []);
     }
 
+    function academy() {
+        View::render('academy/academy', []);
+    }
+
 }

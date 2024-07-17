@@ -19,7 +19,6 @@
         <div class="navigation-items">
           <a href="/">Home</a>
           <a href="/info">Info</a>
-          <a href="/academy">Academy</a>
         </div>
       </div>
     </header>

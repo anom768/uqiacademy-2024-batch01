@@ -25,8 +25,8 @@ class Router
     public static function run(): void
     {
         $path = '/';
-        if (isset($_SERVER['PATH_INFO'])) {
-            $path = $_SERVER['PATH_INFO'];
+        if (isset($_SERVER['REQUEST_URI'])) {
+            $path = $_SERVER['REQUEST_URI'];
         }
 
         $method = $_SERVER['REQUEST_METHOD'];
@@ -54,6 +54,12 @@ class Router
 
         http_response_code(404);
         echo 'CONTROLLER NOT FOUND';
+    }
+
+    public static function cetak() {
+        foreach (self::$routes as $route) {
+            echo $route['path'] . PHP_EOL;
+        }
     }
 
 }
