@@ -1,0 +1,19 @@
+{
+    "name": "com.bangkitanom/www.uqistudios.com",
+    "description": "UQI Studios Website",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Bangkit Anom Sedhayu",
+            "email": "bangkitunom87@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8"
+    },
+    "autoload": {
+        "psr-4": {
+            "com\\bangkitanom\\uqi\\studios\\": "app"
+        }
+    }
+}

@@ -21,10 +21,10 @@ const infoMap = {
         },
     },
     d: {
-        name: "Najwa", phone: "087872383191", school: "SMK N 1 Kebumen", image: "src/foto/Najwa.jpg",
+        name: "Febri", phone: "088221887265", school: "SMK N 1 Kawunganten", image: "src/foto/Febri.jpg",
         device_specification: {
-            device: "PC", processor: "Intel(R) Core(TM) i5-7400 CPU @3.00GHz (4CPUs), ~3.0GHz",
-            ram: 16384, vga: "AMD Radeon (TM) R9 380 Series"
+            device: "PC", processor: "AMD Ryzen 5 4600G with Radeon Graphics (12CPUs), ~3.7GHz",
+            ram: 24576, vga: "AMD Radeon Graphics Processor (0x1636)"
         },
     },
     e: {
@@ -49,10 +49,10 @@ const infoMap = {
         },
     },
     h: {
-        name: "Febri", phone: "088221887265", school: "SMK N 1 Kawunganten", image: "src/foto/Febri.jpg",
+        name: "Najwa", phone: "087872383191", school: "SMK N 1 Kebumen", image: "src/foto/Najwa.jpg",
         device_specification: {
-            device: "PC", processor: "AMD Ryzen 5 4600G with Radeon Graphics (12CPUs), ~3.7GHz",
-            ram: 24576, vga: "AMD Radeon Graphics Processor (0x1636)"
+            device: "PC", processor: "Intel(R) Core(TM) i5-7400 CPU @3.00GHz (4CPUs), ~3.0GHz",
+            ram: 16384, vga: "AMD Radeon (TM) R9 380 Series"
         },
     },
     i: {

@@ -1,0 +1,30 @@
+# BEGIN All In One WP Security
+#AIOWPS_CUSTOM_RULES_START
+<Files *.php>
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+<FilesMatch "(index|wp-login|shop)\.php$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+#AIOWPS_CUSTOM_RULES_END
+# END All In One WP Security#START Sensitive WordPress endpoint mitigation
+SecRule REQUEST_URI "@contains /wp/v2/users" "phase:1,chain,id:400011"
+ SecRule &HTTP_REFERER "@eq 0" "log,noauditlog,deny,status:403"
+SecRule REQUEST_URI "@contains /wp/v2/users" "phase:1,chain,id:400012"
+ SecRule REQUEST_HEADERS:Referer "!@contains ://%{HTTP_HOST}/" "log,noauditlog,deny,status:403"
+#END Sensitive WordPress endpoint mitigation
